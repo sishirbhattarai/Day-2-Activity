@@ -1,21 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Biography</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body>
+  <header>
     <h1>Student Bio</h1>
+  </header>
 
-    <h2>Sishir Bhattarai</h2>
-    <img src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg" alt="Picture">
-    <p1>My name is Sishir Bhattarai. I am going to be coder soon</p1>
+  <div class="container">
 
-    <h2>Contact info</h2>
-    <u1>
-        <li><strong>Email:</strong>"sishir.bhattarai@outlook.com"</li>
-        <li><strong>Github:</strong>"sishir.bhattarai@outlook.com"</li>
-        <li><strong>Portfolio:</strong>"sishir.bhattarai@outlook.com"</li>
+    <section id="main-bio">
+
+      <h2>Sishir Bhattarai</h2>
+
+      <img id="bio-image" src="https://i.insider.com/5ebd65a642278d66da157a35?width=1100&format=jpeg&auto=webp" alt="Sishir">
+
+      <p>My name is Sishir Bhattarai and I will be coder soon</p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">sishir@outlook.com</a></li>
+        <li><strong>Github:</strong> <a href="#">Sishir Bhattarai</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">sishir@outlook.com</a></li>
+      </ul>
+    </section>
+  </div>
+
 </body>
+
 </html>
